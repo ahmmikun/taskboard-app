@@ -1,4 +1,5 @@
 import express from "express";
+import rateLimiter from "../middleware/rateLimiter.js";
 import {
   createNote,
   getAllNotes,
@@ -7,7 +8,7 @@ import {
   deleteNote,
 } from "../controllers/notesController.js";
 const router = express.Router();
-router.get("/", getAllNotes);
+router.get("/", getAllNotes, rateLimiter);
 router.get("/:id", getNoteById);
 router.post("/", createNote);
 router.put("/:id", updateNote);
