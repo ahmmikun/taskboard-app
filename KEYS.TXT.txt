@@ -1,0 +1,4 @@
+MONGO_URI=mongodb://ahmmikun:ahmmikundb@ac-cafsdis-shard-00-00.hfdy5lv.mongodb.net:27017,ac-cafsdis-shard-00-01.hfdy5lv.mongodb.net:27017,ac-cafsdis-shard-00-02.hfdy5lv.mongodb.net:27017/notes_db?ssl=true&authSource=admin&replicaSet=atlas-qzhmwj-shard-0&retryWrites=true&w=majority&appName=Cluster0
+PORT=5001
+UPSTASH_REDIS_REST_URL="https://aware-skink-100606.upstash.io"
+UPSTASH_REDIS_REST_TOKEN="gQAAAAAAAYj-AAIocDI4ZDc2OWUwNjQ5YmM0YTZkOGE1MzRhOTM3MmY1MzVmOHAyMTAwNjA2"
